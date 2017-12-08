@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{amstex}
+\usepackage{graphicx}
+\usepackage{unicode-math}
+\begin{document}
+\section*{Hulp materiaal bij toets}
+\subsection*{standaardlimieten type $\frac{0}{0}$}
+\begin{equation}
+\lim_{x\to0}\frac{\sin\left(x\right)}{x}=1
+\end{equation}
+\begin{equation}
+\lim_{x\to0}\frac{\ln\left(x+1\right)}{x}=1
+\end{equation}
+\begin{equation}
+\lim_{x\to0}\frac{e^{x}-1}{x}=1
+\end{equation}
+\begin{equation}
+\lim_{x\to0}\frac{1-\cos\left(x\right)}{\frac{1}{2}x^2}=1
+\end{equation}
+\subsection*{standaardlimieten type x naar "plus oneindig" of naar "min oneindig"}
+\begin{equation}
+\lim_{x\to\pm\infty}\left(\frac{1}{x}\right)=0
+\end{equation}
+\begin{equation}
+\lim_{x\to\infty}\left(e^{-x}\right)=0
+\end{equation}
+\begin{equation}
+\lim_{x\to-\infty}\left(e^{x}\right)=0
+\end{equation}
+\begin{equation}
+\lim_{x\to\infty}\arctan\left(x\right)=\frac{\pi}{2}
+\end{equation}
+\begin{equation}
+\lim_{x\to-\infty}\arctan\left(x\right)=-\frac{\pi}{2}
+\end{equation}
+\subsection*{Afgeleiden van standaardfuncties}
+\renewcommand{\arraystretch}{2}
+
+\begin{tabular}{|c|c|}
+\hline
+$f(x)$ & $f^\prime(x)$ \\
+\hline \hline
+$a^x$ & \ln(a)\cdot a^x \\
+\hline
+$\ln\left|x\right|$ & $\frac{1}{x}$ \\
+\hline
+$^{a}\log\left|x\right|$ & $\frac{1}{x\ln a}$ \\ \hline
+$\sinh x$ & $\cosh x$ \\ \hline
+$\cosh x$ & $\sinh x$ \\ \hline
+$\tan x$ & $\frac{1}{\cos^2\left(x\right)}$ \\ \hline
+$\cot x $ & $-\frac{1}{\sin^2\left(x\right)}$ \\ \hline
+$\arcsin x$ & $\frac{1}{\sqrt{1-x^2}}$ \\ \hline
+$\arccos x$ & $\frac{-1}{\sqrt{1-x^2}}$ \\ \hline
+$\arctan x$ & $\frac{1}{1+x^2}$ \\ \hline
+\end{tabular}
+\subsection*{kromming}
+\begin{equation}
+k=\frac{y''}{\left(1+\left(y'\right)^2\right)^\frac{3}{2}}
+\end{equation}
+\noindent
+De kromtestraal:
+\begin{equation}
+R = \left|\frac{1}{k}\right|=\left|\frac{{\left(1+\left(y'\right)^2\right)^\frac{3}{2}}}{y''}\right|
+\end{equation}
+\end{document}
